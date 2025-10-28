@@ -1,0 +1,32 @@
+{
+  "name": "parabank-cypress-tests",
+  "version": "1.0.0",
+  "description": "ParaBank test automation using Cypress and GraphWalker concepts",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:firefox": "cypress run --browser firefox",
+    "cypress:run:edge": "cypress run --browser edge",
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:chrome": "cypress run --browser chrome --headed"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "automation",
+    "parabank",
+    "graphwalker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "cypress-mochawesome-reporter": "^3.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
